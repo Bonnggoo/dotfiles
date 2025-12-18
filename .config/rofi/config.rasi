@@ -1,0 +1,86 @@
+@import "colors.rasi"
+
+configuration {
+    modi: "drun";
+    show-icons: true;
+    display-drun: "Apps";
+}
+
+/* Import the colors Matugen generates */
+@import "colors.rasi"
+
+window {
+    width: 40%;
+    transparency: "real";
+    border-radius: 15px;
+    background-color: @background;
+    border: 2px;
+    border-color: @primary;
+    padding: 20px;
+}
+
+mainbox {
+    background-color: transparent;
+    children: [inputbar, listview];
+}
+
+inputbar {
+    background-color: transparent;
+    children: [prompt, entry];
+    margin: 0 0 15px 0;
+}
+
+prompt {
+    text-color: @primary;
+    background-color: transparent;
+    padding: 10px;
+    font: "JetBrains Mono 12";
+}
+
+entry {
+    background-color: transparent;
+    text-color: @foreground;
+    padding: 10px;
+    placeholder: "Search...";
+}
+
+listview {
+    background-color: transparent;
+    lines: 8;
+    spacing: 5px;
+}
+
+element {
+    background-color: transparent;
+    text-color: @foreground;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+element selected {
+    background-color: @primary;
+    text-color: #000000; /* Black text on the highlighted item */
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element selected.normal {
+    background-color: @selected;
+    text-color: @foreground;
+    border-radius: 5px;
+}
+
+element-icon {
+    size: 24px;
+    margin: 0 10px 0 0;
+    background-color: transparent;
+}
+
+element-text {
+    vertical-align: 0.5;
+    background-color: transparent;
+    text-color: inherit;
+}

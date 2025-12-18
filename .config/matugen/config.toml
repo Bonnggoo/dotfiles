@@ -1,0 +1,23 @@
+[config]
+reload_apps = true
+
+[templates.hyprland]
+input_path = "~/.config/matugen/templates/hyprland.conf"
+output_path = "~/.config/hypr/colors/colors.conf"
+
+[templates.waybar]
+input_path = '/home/bongo/.config/matugen/templates/waybar.css'
+output_path = '/home/bongo/.config/waybar/colors.css'
+
+[templates.kitty]
+input_path = "~/.config/matugen/templates/kitty.conf"
+output_path = "~/.config/kitty/colors.conf"
+post_hook = "pkill -USR1 kitty"
+
+[templates.spotify]
+input_path = '/home/bongo/.config/matugen/templates/spotify.ini'
+output_path = '/home/bongo/.config/spicetify/Themes/Matugen/color.ini'
+
+[templates.rofi]
+input_path = '/home/bongo/.config/matugen/templates/rofi-colors.rasi'
+output_path = '/home/bongo/.config/rofi/colors.rasi'

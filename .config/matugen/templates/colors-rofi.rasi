@@ -1,0 +1,8 @@
+* {
+    /* B3 at the end adds 70% transparency to the hex code */
+    background: {{colors.background.default.hex}}B3;
+    foreground: {{colors.on_surface.default.hex}};
+    primary:    {{colors.primary.default.hex}};
+    secondary:  {{colors.secondary.default.hex}};
+    urgent:     {{colors.error.default.hex}};
+}

@@ -1,0 +1,141 @@
+{
+    "layer": "top",
+    "position": "top",
+    
+    /* Edge-to-Edge Layout */
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "spacing": 0,
+
+    "modules-left": [
+        "custom/fedora", 
+        "hyprland/workspaces", 
+        "hyprland/window"
+    ],
+
+    "modules-center": [
+        "custom/space", 
+        "custom/spotify", 
+        "custom/space"
+    ],
+
+    "modules-right": [
+        "cava", 
+        "cpu", 
+        "memory", 
+        "battery",
+        "pulseaudio", 
+        "custom/sep", 
+        "network", 
+        "bluetooth", 
+        "custom/notification", 
+        "clock"
+    ],
+
+
+    /* --- MODULES --- */
+
+    "custom/fedora": {
+        "format": "  ",
+        "on-click": "rofi -show drun", /* Opens App Launcher */
+        "tooltip": false
+    },
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        /* 1. FORCE WORKSPACES 1-4 TO STAY OPEN */
+        "persistent-workspaces": {
+            "*": 4 
+        }
+    },
+
+    "hyprland/window": {
+        "format": "  {title}",
+        "max-length": 40,
+        "separate-outputs": true
+    },
+
+    "custom/space": {
+        "format": " ",
+        "tooltip": false
+    },
+
+    "custom/spotify": {
+        "exec": "playerctl metadata --format '{{artist}} - {{title}}' 2>/dev/null || echo ''",
+        "interval": 2,
+        "format": " {}",
+        /* 2. CLICK TO PAUSE/PLAY */
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl next",
+        "on-scroll-down": "playerctl previous"
+    },
+
+    "cava": {
+        "framerate": 30,
+        "autosens": 1,
+        "bars": 12,
+        "method": "pipewire",
+        "format-icons": [" ", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+        /* Clicking visualizer opens audio control */
+        "on-click": "pavucontrol"
+    },
+
+    "cpu": { 
+        "format": " {usage}%",
+        /* 3. CLICK TO OPEN SYSTEM MONITOR (Requires btop installed) */
+        "on-click": "kitty btop"
+    },
+
+    "memory": { 
+        "format": " {percentage}%",
+        "on-click": "kitty btop"
+    },
+
+    "battery": {
+        "states": { "good": 95, "warning": 30, "critical": 15 },
+        "format": "{icon} {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        /* 4. CLICK TO SHOW POWER MENU (If wlogout is installed) */
+        "on-click": "wlogout"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " ",
+        "format-icons": { "default": ["", "", ""] },
+        "on-click": "pavucontrol"
+    },
+
+    "custom/sep": {
+        "format": "|",
+        "tooltip": false
+    },
+
+    "network": {
+        "format-wifi": "",
+        "format-disconnected": "󰖪",
+        "tooltip-format": "{essid}",
+        "on-click": "nm-connection-editor"
+    },
+
+    "bluetooth": {
+        "format": "",
+        "format-disabled": "󰂲",
+        "on-click": "blueman-manager"
+    },
+    
+    "custom/notification": {
+        "format": "",
+        "on-click": "swaync-client -t -sw"
+    },
+
+    "clock": {
+        "format": "{:%a %b %d %I:%M %p}",
+        /* 5. CLICK TO OPEN CALENDAR */
+        "on-click": "gnome-calendar"
+    }
+}
