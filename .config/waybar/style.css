@@ -107,14 +107,20 @@ window#waybar {
 }
 
 /* Power Button (Icon only, no pill background) */
-#custom-power,
-#custom-launcher {
+#custom-power {
     background-color: transparent;
     color: @error;
     font-size: 18px;
     margin-left: 10px;
     margin-right: 15px;
     padding: 0;
+}
+
+#custom-launcher {
+    color: @primary;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 15px;
 }
 
 /* Animations */

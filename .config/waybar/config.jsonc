@@ -95,7 +95,7 @@
     },
 
     "clock": {
-	"format": "{:%a, %b %d  %I:%M}",
+	"format": "{:%a, %b %d  %I:%M %p}",
 	"on-click": "gnome-calendar"
     },
 
