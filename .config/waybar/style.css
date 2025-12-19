@@ -20,14 +20,14 @@ window#waybar {
 /* --- The "Pill" Styling --- */
 /* Solid dark background, Primary text, No borders */
 #clock,
-#custom-notifications,
+#custom-utils,
 #battery,
 #cpu,
 #memory,
-#disk,
-#temperature,
 #network,
+#bluetooth,
 #custom-spotify,
+#custom-notifications,
 #group-hardware {
     background-color: @surface_container;   /* The Dark Matugen Color */
     color: @primary;              /* The Text is Primary Color */
@@ -35,6 +35,14 @@ window#waybar {
     border-radius: 4px;     
     margin: 7px 4px;         
     box-shadow: none;             /* Ensure no shadows look like borders */
+}
+
+#custom-separator {
+    color: @primary;
+    margin: 0 2px;
+    font-size: 25px;
+    font-weight: normal;
+    background-color: transparent;
 }
 
 /* --- Hardware Group Specifics --- */
@@ -47,6 +55,24 @@ window#waybar {
 #group-hardware #cpu,
 #group-hardware #memory,
 #group-hardware #battery {
+    background-color: transparent; 
+    color: @primary; 
+    border: none;
+    margin: 0;
+    padding: 6px 8px; 
+    box-shadow: none;
+}
+
+
+#group-utils {
+    padding: 0; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#group-utils #network,
+#group-utils #bluetooth,
+#group-utils #custon-notifications {
     background-color: transparent; 
     color: @primary; 
     border: none;
@@ -107,7 +133,7 @@ window#waybar {
 /* Power Button (Icon only, no background) */
 #custom-power {
     background-color: transparent;
-    color: @error;
+    color: @primary;
     font-size: 18px;
     margin-left: 10px;
     margin-right: 15px;
@@ -120,7 +146,7 @@ window#waybar {
     color: @primary;
     font-size: 18px;
     margin-left: 20px;
-    margin-right: 15px;
+    margin-right: 5px;
     padding: 0;
 }
 
@@ -131,4 +157,3 @@ window#waybar {
         color: @surface;
     }
 }
-
