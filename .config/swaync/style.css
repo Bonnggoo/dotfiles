@@ -1,0 +1,175 @@
+@import "colors.css";
+
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+  font-weight: 500;
+  color: @onSurface; /* Default text color */
+}
+
+.notification-row {
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.notification {
+  background: @surface;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 0;
+  border: 2px solid @primary;
+}
+
+.notification-content {
+  background: transparent;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.close-button {
+  background: @surfaceContainer; /* Slightly lighter background */
+  color: @primary;
+  text-shadow: none;
+  padding: 0;
+  border-radius: 6px;
+  margin: 6px;
+  border: none;
+  box-shadow: none;
+}
+
+.close-button:hover {
+  background: @primary;
+  color: @onPrimary;
+}
+
+.notification-default-action {
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+}
+
+.summary {
+  font-size: 15px;
+  font-weight: bold;
+  color: @primary;
+  text-shadow: none;
+}
+
+.time {
+  font-size: 12px;
+  font-weight: normal;
+  color: @secondary;
+  text-shadow: none;
+}
+
+.body {
+  font-size: 13px;
+  font-weight: normal;
+  color: @onSurface;
+  text-shadow: none;
+}
+
+.control-center {
+  background: @background; /* Main background */
+  border: 2px solid @primary;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* simplified shadow */
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.control-center-list-placeholder {
+  opacity: 0.5;
+  color: @onSurface;
+}
+
+.widget-title {
+  background: @surfaceContainer;
+  color: @primary;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.widget-title > button {
+  background: @secondary;
+  color: @onSecondary;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.widget-title > button:hover {
+  background: @primary;
+  color: @onPrimary;
+}
+
+.widget-dnd {
+  background: @surfaceContainer;
+  color: @primary;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.widget-dnd > switch {
+  background: @surface;
+  border-radius: 20px;
+  border: 1px solid @outline;
+}
+
+.widget-dnd > switch:checked {
+  background: @secondary;
+  border: 1px solid @secondary;
+}
+
+.widget-dnd > switch slider {
+  background: @onSurface;
+  border-radius: 50%;
+}
+
+.widget-mpris {
+  background: @surfaceContainer;
+  border: 2px solid @secondary;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  color: @onSurface;
+}
+
+.widget-mpris-player {
+  background: transparent;
+  padding: 8px;
+}
+
+.widget-mpris-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: @primary;
+}
+
+.widget-mpris-subtitle {
+  font-size: 12px;
+  color: @secondary;
+}
+
+/* Urgency levels */
+.notification.critical {
+  border: 2px solid @error; /* Matugen error color (usually Red) */
+  background: @surface;
+}
+
+.notification.low {
+  border: 2px solid @secondary;
+}
+
+.notification.normal {
+  border: 2px solid @primary;
+}

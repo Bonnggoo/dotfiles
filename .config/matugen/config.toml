@@ -21,3 +21,8 @@ output_path = '/home/bongo/.config/spicetify/Themes/Matugen/color.ini'
 [templates.rofi]
 input_path = '/home/bongo/.config/matugen/templates/rofi-colors.rasi'
 output_path = '/home/bongo/.config/rofi/colors.rasi'
+
+[templates.swaync]
+input_path = "~/.config/matugen/templates/swaync.css"
+output_path = "~/.config/swaync/colors.css"
+post_hook = "swaync-client -rs" 
