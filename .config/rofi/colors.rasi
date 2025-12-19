@@ -1,7 +1,7 @@
 * {
-    background: #111318CC;
+    background: #121318CC;
     foreground: #e2e2e9;
-    primary: #abc7ff;
-    border: #abc7ff;
-    selected: #294677;
+    primary: #afc6ff;
+    border: #afc6ff;
+    selected: #2d4678;
 }
