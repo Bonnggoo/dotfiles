@@ -94,6 +94,11 @@
         "escape": true
     },
 
+    "clock": {
+	"format": "{:%a, %b %d  %I:%M}",
+	"on-click": "gnome-calendar"
+    },
+
     "custom/power": {
         "format": "⏻ ",
         "tooltip": false,

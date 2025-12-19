@@ -13,7 +13,7 @@
 
 /* The Bar Background */
 window#waybar {
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent Black */
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent Black */
     color: @onSurface;
     transition-property: background-color;
     transition-duration: .5s;
@@ -30,8 +30,7 @@ window#waybar {
 #temperature,
 #network,
 #custom-spotify,
-#group-hardware,
-#custom-launcher {       /* <--- ADD THIS LINE */
+#group-hardware {       /* <--- ADD THIS LINE */
     background-color: @surfaceContainer;
     color: @onSurface;
     padding: 6px 15px;       
@@ -108,7 +107,8 @@ window#waybar {
 }
 
 /* Power Button (Icon only, no pill background) */
-#custom-power {
+#custom-power,
+#custom-launcher {
     background-color: transparent;
     color: @error;
     font-size: 18px;
