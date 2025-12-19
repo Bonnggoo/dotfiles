@@ -13,14 +13,12 @@
 
 /* The Bar Background */
 window#waybar {
-    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent Black */
-    color: @onSurface;
-    transition-property: background-color;
-    transition-duration: .5s;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* No borders here */
 }
 
 /* --- The "Pill" Styling --- */
-/* Applies to all major modules to make them look uniform */
+/* Solid dark background, Primary text, No borders */
 #clock,
 #custom-notifications,
 #battery,
@@ -30,16 +28,16 @@ window#waybar {
 #temperature,
 #network,
 #custom-spotify,
-#group-hardware {       /* <--- ADD THIS LINE */
-    background-color: @surfaceContainer;
-    color: @onSurface;
-    padding: 6px 15px;       
-    border-radius: 5px;     
-    margin: 6px 4px;         
-    border: 1px solid @outline; 
+#group-hardware {
+    background-color: @surface_container;   /* The Dark Matugen Color */
+    color: @primary;              /* The Text is Primary Color */
+    padding: 1px 8px;       
+    border-radius: 4px;     
+    margin: 7px 4px;         
+    box-shadow: none;             /* Ensure no shadows look like borders */
 }
+
 /* --- Hardware Group Specifics --- */
-/* The container has padding/color, but the items inside need to be clean */
 #group-hardware {
     padding: 0; 
     padding-left: 5px;
@@ -50,15 +48,16 @@ window#waybar {
 #group-hardware #memory,
 #group-hardware #battery {
     background-color: transparent; 
+    color: @primary; 
     border: none;
     margin: 0;
     padding: 6px 8px; 
     box-shadow: none;
 }
 
-/* Battery Critical State */
+/* Battery Colors */
 #battery.critical {
-    color: @error;
+    color: @error; 
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -67,23 +66,22 @@ window#waybar {
 }
 
 #battery.warning { color: #f9e2af; }
-#battery.charging { color: #a6e3a1; }
+#battery.charging { color: @primary; }
 
 /* --- Workspaces --- */
 #workspaces {
-    background-color: @surfaceContainer;
+    background-color: @surface_container;   /* Matches other pills */
     border-radius: 20px;
     margin: 6px 4px;
     padding: 0px 5px;
-    border: 1px solid @outline;
 }
 
 #workspaces button {
     padding: 5px 10px;
     margin: 4px 2px;
     border-radius: 15px;
-    background-color: transparent;
-    color: @onSurfaceVariant;
+    background-color: @surface;
+    color: @onSurfaceVariant; 
     transition: all 0.3s ease;
 }
 
@@ -94,19 +92,19 @@ window#waybar {
 
 #workspaces button.active {
     background-color: @primary;
-    color: @onPrimary;
+    color: @onPrimary; 
     padding-left: 15px; 
     padding-right: 15px;
 }
 
 /* --- Special Modules --- */
 #custom-spotify {
-    background-color: @secondary; 
-    color: @onSecondary;
-    padding: 6px 20px; 
+    background-color: @surface_container; 
+    color: @primary;
+    padding: 6px 8px; 
 }
 
-/* Power Button (Icon only, no pill background) */
+/* Power Button (Icon only, no background) */
 #custom-power {
     background-color: transparent;
     color: @error;
@@ -116,11 +114,14 @@ window#waybar {
     padding: 0;
 }
 
+/* Launcher Icon (Icon only, no background) */
 #custom-launcher {
+    background-color: transparent;
     color: @primary;
     font-size: 18px;
     margin-left: 20px;
     margin-right: 15px;
+    padding: 0;
 }
 
 /* Animations */
