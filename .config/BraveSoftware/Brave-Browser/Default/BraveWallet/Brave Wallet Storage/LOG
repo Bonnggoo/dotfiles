@@ -1,2 +1,3 @@
-2025/12/20-03:11:43.624 44eb Creating DB /home/bongo/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage since it was missing.
-2025/12/20-03:11:43.648 44eb Reusing MANIFEST /home/bongo/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/MANIFEST-000001
+2025/12/20-06:22:46.352 3807 Reusing MANIFEST /home/bongo/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/MANIFEST-000001
+2025/12/20-06:22:46.352 3807 Recovering log #3
+2025/12/20-06:22:46.352 3807 Reusing old log /home/bongo/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/000003.log 

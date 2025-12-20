@@ -1,2 +1,3 @@
-2025/12/20-03:11:43.750 5 Creating DB /home/bongo/.config/BraveSoftware/Brave-Browser/Default/Session Storage since it was missing.
-2025/12/20-03:11:43.773 5 Reusing MANIFEST /home/bongo/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2025/12/20-06:22:46.478 5 Reusing MANIFEST /home/bongo/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2025/12/20-06:22:46.478 5 Recovering log #3
+2025/12/20-06:22:46.478 5 Reusing old log /home/bongo/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000003.log 

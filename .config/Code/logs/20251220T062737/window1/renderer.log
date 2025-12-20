@@ -1,0 +1,12 @@
+2025-12-20 06:27:38.457 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-12-20 06:27:38.543 [info] Started local extension host with pid 18258.
+2025-12-20 06:27:38.560 [info] Started initializing default profile extensions in extensions installation folder. file:///home/bongo/.vscode/extensions
+2025-12-20 06:27:38.640 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/bongo/.vscode/extensions
+2025-12-20 06:27:38.935 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-20 06:27:39.062 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-20 06:27:41.434 [info] [perf] Render performance baseline is 19ms
+2025-12-20 06:28:39.711 [error] Failed to fetch MCP registry providers Server returned 404
+2025-12-20 06:28:44.900 [error] [Extension Host] (node:18258) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-20 06:28:44.901 [error] [Extension Host] (node:18258) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-20 06:28:45.299 [error] chatParticipant must be declared in package.json: claude-code

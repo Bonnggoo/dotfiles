@@ -28,7 +28,7 @@
       "active": "",
       "default": ""
     },
-    "presistent-workspaces": {
+    "persistent-workspaces": {
       "*": 4
     }
   },
@@ -59,12 +59,12 @@
   "clock": {
     "timezone": "Asia/Kolkata",
     "tooltip": false,
-    "format": "{:%H:%M %p  -  %A, %d %b}",
+    "format": "  {:%H:%M %p  -  %A, %d %b}",
   },
 
   "network": {
     "format-wifi": "󰤢",
-    "format-ethernet": "󰈀 ",
+    "format-ethernet": "󰈀",
     "format-disconnected": "󰤠 ",
     "interval": 5,
     "tooltip-format": "{essid} ({signalStrength}%)",
@@ -103,7 +103,7 @@
   "battery": {
         "interval":2,
         "states": {
-            // "good": 95,
+            "good": 95,
             "warning": 30,
             "critical": 15
         },
