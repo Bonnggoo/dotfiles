@@ -1,142 +1,126 @@
 {
-    "layer": "top",
-    "position": "top",
-    "height": 55,
-    "spacing": 4,
-    
-    // Module Layout
-    "modules-left": [
-	"custom/launcher",
-        "custom/separator",
-        "hyprland/workspaces"
-    ],
-    "modules-center": [
-        "custom/spotify"
-    ],
-    "modules-right": [
-        "group/hardware",      // CPU + RAM + Battery Group
-	"custom/separator",
-	"group/utils",
-	"custom/separator",
-        "clock",
-        "custom/separator",
-        "custom/power"         // Power Button
-    ],
+  "layer": "top",
+  "position": "top",
+  "exclusive": true,
+  "margin-bottom": 0,
+  "spacing" : 0,
+  "modules-left": [
+  "hyprland/workspaces",
+  "memory",
+  "cpu"
+  ],
 
-    // --- Modules Configuration ---
+  "modules-center": ["clock"],
 
-    "custom/separator": {
-        "format": "|",
-        "tooltip": false
+  "modules-right": [
+    "custom/music",
+    "bluetooth",
+    "network",
+    "pulseaudio", 
+    "backlight",
+    "battery",
+    "custom/lock"
+  ],
+
+  "hyprland/workspaces": {
+    "format": "{name}: {icon}",
+    "format-icons": {
+      "active": "",
+      "default": ""
     },
+    "presistent-workspaces": {
+      "*": 4
+    }
+  },
 
-    "custom/launcher": {
-        "format": " ",       // Fedora Icon
-        "on-click": "rofi -show drun",
-        "tooltip": false
-    },
-
-    "hyprland/workspaces": {
-        "format": "{icon}",
-        "on-click": "activate",
-        "sort-by-number": true,
-	"persistent-workspaces": {
-	    "*": 4
-        }
-    },
-
-    "custom/spotify": {
-        "exec": "playerctl metadata --format '{{artist}} - {{title}}' 2>/dev/null || echo ''",
-        "interval": 2,
-        "format": "  {}", 
-        "on-click": "swaync-client -t",
-        "on-click-right": "swaync-client -d",
-        "max-length": 50
-    },
-
-    // Hardware Group
-    "group/hardware": {
-        "orientation": "horizontal",
-        "modules": [
-            "cpu",
-            "memory",
-            "battery",
-        ]
-    },
-
-    "cpu": {
-        "format": "  {usage}%",
-        "tooltip": false
-    },
-
-    "memory": {
-        "format": "  {}%"
-    },
-
-    "battery": {
-        "states": { "good": 95, "warning": 30, "critical": 15 },
-        "format": "{icon} {capacity}%",
-        "format-charging": "󰂄 {capacity}%",
-        "format-plugged": " {capacity}%",
-        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-        /* 4. CLICK TO SHOW POWER MENU (If wlogout is installed) */
-        "on-click": "wlogout"
-    },
- 
-    "group/utils": {
-        "orientation": "horizontal",
-        "modules": [
-            "bluetooth",
-            "network",		
-            "custom/notifications",
-        ]
-    },
-
-    "custom/notifications": {
-        "tooltip": false,
-        "format": "{icon}",
-        "format-icons": {
-            "notification": "<span foreground='red'><sup></sup></span>",
-            "none": "",
-            "dnd-notification": "<span foreground='red'><sup></sup></span>",
-            "dnd-none": "",
-            "inhibited-notification": "<span foreground='red'><sup></sup></span>",
-            "inhibited-none": "",
-            "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
-            "dnd-inhibited-none": ""
+  "bluetooth": {
+    "format": "󰂲",
+    "format-on": "{icon}",
+    "format-off": "{icon}", 
+    "format-connected":"{icon}",
+    "format-icons":{
+        "on":"󰂯",
+        "off": "󰂲",
+        "connected": "󰂱",
         },
-        "return-type": "json",
-        "exec-if": "which swaync-client",
-        "exec": "swaync-client -swb",
-        "on-click": "swaync-client -t -sw",
-        "on-click-right": "swaync-client -d -sw",
-        "escape": true
-    },
+    "on-click": "blueman-manager",
+    "tooltip-format-connected":"{device_enumerate}"
+  },
 
-    "network": {
-        "format-wifi": " ",
-        "format-ethernet": "󰈀",
-        "format-disconnected": "󰤮",
-        "tooltip-format": "{essid} ({signalStrength}%)",
-        "on-click": "nm-connection-editor"
-    },
+  "custom/music": {
+    "exec": "playerctl metadata --format '{{artist}} - {{title}}' 2>/dev/null || echo ''",
+    "interval": 2,
+    "format": "  {}", 
+    "on-click": "swaync-client -t",
+    "on-click-right": "swaync-client -d",
+    "max-length": 50
+  },
 
-    "bluetooth": {
-        "format": "",
-        "format-disabled": "󰂲",
-        "format-connected": "󰂱",
-        "tooltip-format": "{controller_alias}\t{controller_address}",
-        "on-click": "blueman-manager"
-    },
+  "clock": {
+    "timezone": "Asia/Kolkata",
+    "tooltip": false,
+    "format": "{:%H:%M %p  -  %A, %d %b}",
+  },
 
-    "clock": {
-	"format": "{:%a, %b %d  %I:%M %p}",
-	"on-click": "gnome-calendar"
-    },
+  "network": {
+    "format-wifi": "󰤢",
+    "format-ethernet": "󰈀 ",
+    "format-disconnected": "󰤠 ",
+    "interval": 5,
+    "tooltip-format": "{essid} ({signalStrength}%)",
+    "on-click": "nm-connection-editor"
 
-    "custom/power": {
-        "format": "⏻ ",
+ },
+
+  "cpu": {
+    "interval": 1,
+    "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    "on-click": "ghostty -e htop"
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": "  {used:0.1f}G/{total:0.1f}G",
+    "tooltip-format": "Memory"
+ },
+  
+  "backlight": {
+        "format": "{icon}  {percent}%",
+        "format-icons": ["","󰃜", "󰃛", "󰃞","󰃝","󰃟","󰃠"],
+        "tooltip": false
+  },
+  
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", " "]
+    },
+    "on-click": "pavucontrol"
+  },
+
+  "battery": {
+        "interval":2,
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-full": "{icon}  {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{icon} {time}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+  },
+  
+  "custom/lock": {
+        "format": "⏻",
         "tooltip": false,
         "on-click": "wlogout --protocol layer-shell"
-    }
+  },
+
 }
