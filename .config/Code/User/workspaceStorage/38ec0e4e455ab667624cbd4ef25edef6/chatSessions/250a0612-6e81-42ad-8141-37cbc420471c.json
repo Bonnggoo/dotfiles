@@ -1,0 +1,64 @@
+{
+  "version": 3,
+  "responderUsername": "",
+  "initialLocation": "panel",
+  "requests": [],
+  "sessionId": "250a0612-6e81-42ad-8141-37cbc420471c",
+  "creationDate": 1766357283578,
+  "lastMessageDate": 1766357283578,
+  "hasPendingEdits": false,
+  "contrib": {
+    "chatDynamicVariableModel": []
+  },
+  "attachments": [],
+  "mode": {
+    "id": "agent",
+    "kind": "agent"
+  },
+  "selectedModel": {
+    "identifier": "copilot/gpt-5-mini",
+    "metadata": {
+      "extension": {
+        "value": "GitHub.copilot-chat",
+        "_lower": "github.copilot-chat"
+      },
+      "id": "gpt-5-mini",
+      "vendor": "copilot",
+      "name": "GPT-5 mini",
+      "family": "gpt-5-mini",
+      "detail": "1x",
+      "tooltip": "GPT-5 mini (gpt-5-mini) is counted at a 1x rate.",
+      "version": "gpt-5-mini",
+      "maxInputTokens": 127805,
+      "maxOutputTokens": 64000,
+      "auth": {
+        "providerLabel": "GitHub Copilot Chat",
+        "accountLabel": "Bonnggoo"
+      },
+      "isDefault": true,
+      "isUserSelectable": true,
+      "modelPickerCategory": {
+        "label": "Copilot Models",
+        "order": 0
+      },
+      "capabilities": {
+        "vision": true,
+        "toolCalling": true,
+        "agentMode": true
+      }
+    }
+  },
+  "inputText": "",
+  "selections": [
+    {
+      "startLineNumber": 1,
+      "startColumn": 1,
+      "endLineNumber": 1,
+      "endColumn": 1,
+      "selectionStartLineNumber": 1,
+      "selectionStartColumn": 1,
+      "positionLineNumber": 1,
+      "positionColumn": 1
+    }
+  ]
+}

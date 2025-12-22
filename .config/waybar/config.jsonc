@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "position": "top",
+  "position": "bottom",
   "exclusive": true,
   "margin-bottom": 0,
   "spacing" : 0,
@@ -57,9 +57,8 @@
   },
 
   "clock": {
-    "timezone": "Asia/Kolkata",
     "tooltip": false,
-    "format": "  {:%H:%M %p  -  %A, %d %b}",
+    "format": "  {:%I:%M %p  -  %A, %d %b}",
   },
 
   "network": {

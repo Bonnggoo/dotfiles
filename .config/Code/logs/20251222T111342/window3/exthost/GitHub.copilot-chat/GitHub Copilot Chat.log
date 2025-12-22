@@ -1,0 +1,6 @@
+2025-12-22 11:14:07.969 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-22 11:14:07.969 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-22 11:14:07.969 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-22 11:14:07.969 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-22 11:14:07.981 [info] Logged in as Bonnggoo
+2025-12-22 11:14:07.985 [info] Using the Electron fetcher.

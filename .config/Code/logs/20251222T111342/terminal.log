@@ -1,0 +1,4 @@
+2025-12-22 11:13:44.121 [info] Latency measurements for local backend
+window<->ptyhost (message port): 3.80ms
+window<->ptyhostservice<->ptyhost: 1.70ms
+ptyhostservice<->ptyhost: 1.01ms []

@@ -1,0 +1,24 @@
+2025-12-22 11:14:07.271 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-22 11:14:07.271 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-22 11:14:07.271 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-22 11:14:07.271 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-22 11:14:07.286 [info] Logged in as Bonnggoo
+2025-12-22 11:14:07.291 [info] Using the Electron fetcher.
+2025-12-22 11:14:07.955 [info] Got Copilot token for Bonnggoo
+2025-12-22 11:14:07.955 [info] Copilot Chat: 0.35.2, VS Code: 1.107.1
+2025-12-22 11:14:08.222 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-12-22 11:14:08.232 [info] Registering default platform agent...
+2025-12-22 11:14:08.233 [error] Copilot extension not found
+2025-12-22 11:14:08.234 [info] activationBlocker from 'conversationFeature' took for 33ms
+2025-12-22 11:14:08.243 [info] activationBlocker from 'languageModelAccess' took for 41ms
+2025-12-22 11:14:08.250 [info] Creating node-pty shim: source=/usr/share/code/resources/app/node_modules/node-pty/build/Release, dest=/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/prebuilds/linux-x64
+2025-12-22 11:14:08.250 [info] Creating ripgrep shim: source=/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2025-12-22 11:14:08.253 [info] Found 1 entries to copy: pty.node
+2025-12-22 11:14:08.253 [info] Found 1 entries to copy: rg
+2025-12-22 11:14:08.375 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-12-22 11:14:08.543 [info] Fetched model metadata in 327ms 5c34f8cc-14d6-4ca3-8772-bf56dbcd25ea
+2025-12-22 11:14:08.559 [info] Latest entry: ccreq:latest.copilotmd
+2025-12-22 11:14:08.559 [info] ccreq:720022c2.copilotmd | markdown
+2025-12-22 11:14:08.575 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-12-22 11:14:08.577 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-12-22 11:14:08.577 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary

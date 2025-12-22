@@ -1,0 +1,11 @@
+2025-12-22 01:54:41.443 [info] Started local extension host with pid 5030.
+2025-12-22 01:54:42.417 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-22 01:54:42.596 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-22 01:54:42.885 [error] [Extension Host] (node:5030) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-22 01:54:42.886 [error] [Extension Host] (node:5030) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-22 01:54:43.814 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-22 01:54:44.161 [info] [perf] Render performance baseline is 32ms
+2025-12-22 01:54:45.123 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-22 01:54:52.924 [error] Failed to fetch MCP registry providers Server returned 404
+2025-12-22 01:54:53.043 [error] Failed to fetch MCP registry providers Server returned 404

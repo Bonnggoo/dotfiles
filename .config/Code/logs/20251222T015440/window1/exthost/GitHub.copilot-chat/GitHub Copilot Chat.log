@@ -1,0 +1,52 @@
+2025-12-22 01:54:43.319 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-22 01:54:43.319 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-22 01:54:43.319 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-22 01:54:43.319 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-22 01:54:43.551 [warning] GitHub login failed
+2025-12-22 01:54:43.726 [error] Copilot extension not found
+2025-12-22 01:54:43.811 [info] Creating node-pty shim: source=/usr/share/code/resources/app/node_modules/node-pty/build/Release, dest=/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/prebuilds/linux-x64
+2025-12-22 01:54:43.811 [info] Creating ripgrep shim: source=/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2025-12-22 01:54:43.876 [info] Found 1 entries to copy: rg
+2025-12-22 01:54:43.877 [info] Found 1 entries to copy: pty.node
+2025-12-22 01:54:44.113 [warning] GitHub login failed
+2025-12-22 01:54:44.116 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async V1.waitForChatEnabled (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:5093)
+	at async V1.run (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4977)
+	at async F7.askToUpgradeAuthPermissions (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4456): Failed to get copilot token
+2025-12-22 01:54:44.116 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-12-22 01:54:44.116 [info] Using the Electron fetcher.
+2025-12-22 01:54:44.117 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-22 01:54:44.117 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async l$._getToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5639)
+	at async r (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5103)
+	at async l$._registerEmbeddings (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5600)
+	at async Promise.all (index 1)
+	at async Promise.allSettled (index 1)
+	at async q2.waitForActivationBlockers (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3061)
+	at async /home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3820
+	at async Skt (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3688)
+	at async Ky.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async Ky.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async Ky.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+2025-12-22 01:54:44.117 [info] activationBlocker from 'languageModelAccess' took for 420ms
+2025-12-22 01:54:44.358 [error] [CopilotCLISession] Failed to fetch models: Error: Failed to get token for auth info
+2025-12-22 01:54:51.854 [info] Logged in as Bonnggoo
+2025-12-22 01:54:52.251 [info] Got Copilot token for Bonnggoo
+2025-12-22 01:54:52.251 [info] Copilot Chat: 0.35.2, VS Code: 1.107.1
+2025-12-22 01:54:52.286 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-12-22 01:54:52.286 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-12-22 01:54:52.294 [info] Registering default platform agent...
+2025-12-22 01:54:52.295 [info] [code-referencing] Public code references are enabled.
+2025-12-22 01:54:52.295 [info] activationBlocker from 'conversationFeature' took for 8605ms
+2025-12-22 01:54:52.356 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-12-22 01:54:52.552 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-12-22 01:54:52.554 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-12-22 01:54:52.923 [info] Fetched model metadata in 636ms 8b0f9afc-c050-4a99-a0af-23c5fd1cfa10
+2025-12-22 01:54:53.065 [info] Latest entry: ccreq:latest.copilotmd
+2025-12-22 01:54:53.065 [info] ccreq:40e9f0c8.copilotmd | markdown

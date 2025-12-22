@@ -1,0 +1,7 @@
+2025-12-22 01:52:36.350 [info] update#setState idle
+2025-12-22 01:52:36.376 [error] SyntaxError: Expected ',' or '}' after property value in JSON at position 119 (line 20 column 2)
+    at JSON.parse (<anonymous>)
+    at Km (file:///usr/share/code/resources/app/out/main.js:6:150)
+    at Uu.W (file:///usr/share/code/resources/app/out/main.js:142:18742)
+2025-12-22 01:53:06.353 [info] update#setState checking for updates
+2025-12-22 01:53:06.441 [info] update#setState idle

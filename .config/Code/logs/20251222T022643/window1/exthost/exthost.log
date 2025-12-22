@@ -1,0 +1,19 @@
+2025-12-22 02:26:44.945 [info] Extension host with pid 24587 started
+2025-12-22 02:26:44.945 [info] Skipping acquiring lock for /home/bongo/.config/Code/User/workspaceStorage/38ec0e4e455ab667624cbd4ef25edef6.
+2025-12-22 02:26:44.958 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-22 02:26:44.982 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-22 02:26:44.996 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'onLanguage:dart'
+2025-12-22 02:26:45.078 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2025-12-22 02:26:45.676 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-12-22 02:26:45.679 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-12-22 02:26:45.737 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-12-22 02:26:45.969 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-22 02:26:46.111 [info] Eager extensions activated
+2025-12-22 02:26:46.150 [info] ExtensionService#_doActivateExtension Dart-Code.flutter, startup: false, activationEvent: 'api', root cause: Dart-Code.dart-code
+2025-12-22 02:26:46.168 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-22 02:26:46.169 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-22 02:26:46.326 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at VXt.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:517:9889)
+2025-12-22 02:27:41.695 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-22 02:27:41.723 [warning] Canceled
+2025-12-22 02:27:41.935 [info] Extension host with pid 24587 exiting with code 0

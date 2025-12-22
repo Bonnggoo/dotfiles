@@ -1,0 +1,19 @@
+Device daemon started.
+[ERR] Error 1 retrieving device properties for sdk gphone64 x86 64:
+[ERR] adb: device 'emulator-5554' not found
+
+[ERR] Error 1 retrieving device properties for emulator-5554:
+[ERR] adb: device still authorizing
+
+[ERR] Error 1 retrieving device properties for sdk gphone64 x86 64:
+[ERR] adb: device 'emulator-5554' not found
+
+[ERR] Error 1 retrieving device properties for sdk gphone64 x86 64:
+[ERR] adb: device 'emulator-5554' not found
+
+[ERR] Error 1 retrieving device properties for sdk gphone64 x86 64:
+[ERR] adb: device 'emulator-5554' not found
+
+[ERR] Error 1 retrieving device properties for sdk gphone64 x86 64:
+[ERR] adb: device 'emulator-5554' not found
+

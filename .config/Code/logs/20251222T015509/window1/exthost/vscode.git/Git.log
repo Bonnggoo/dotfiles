@@ -1,0 +1,48 @@
+2025-12-22 01:55:11.039 [info] [main] Log level: Info
+2025-12-22 01:55:11.040 [info] [main] Validating found git in: "git"
+2025-12-22 01:55:11.040 [info] [main] Using git "2.52.0" from "git"
+2025-12-22 01:55:11.040 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-22 01:55:11.040 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-22 01:55:11.042 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2025-12-22 01:55:11.047 [info] [Model][openRepository] Opened repository (path): /home/bongo/Projects/traffic_violation_app
+2025-12-22 01:55:11.047 [info] [Model][openRepository] Opened repository (real path): /home/bongo/Projects/traffic_violation_app
+2025-12-22 01:55:11.047 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-22 01:55:11.059 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-22 01:55:11.060 [info] > git config --get commit.template [7ms]
+2025-12-22 01:55:11.089 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-22 01:55:11.089 [info] > git rev-parse --show-toplevel [8ms]
+2025-12-22 01:55:11.094 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/bongo/Projects/traffic_violation_app/.git/refs/remotes/origin/main'
+2025-12-22 01:55:11.100 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-22 01:55:11.100 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-12-22 01:55:11.117 [info] > git status -z -uall [12ms]
+2025-12-22 01:55:11.117 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-22 01:55:11.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-22 01:55:11.136 [info] > git rev-parse --show-toplevel [20ms]
+2025-12-22 01:55:11.145 [info] > git config --get --local branch.main.vscode-merge-base [10ms]
+2025-12-22 01:55:11.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-12-22 01:55:11.162 [info] > git rev-parse --show-toplevel [17ms]
+2025-12-22 01:55:11.169 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2025-12-22 01:55:11.176 [info] > git rev-parse --show-toplevel [7ms]
+2025-12-22 01:55:11.184 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% fa61e6a351238217443b7e02dba06ea9e4ad33d4...refs/remotes/origin/main -- [8ms]
+2025-12-22 01:55:11.185 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-22 01:55:11.191 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-22 01:55:11.203 [info] > git rev-parse --show-toplevel [7ms]
+2025-12-22 01:55:11.204 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-22 01:55:11.364 [info] > git config --get commit.template [38ms]
+2025-12-22 01:55:11.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-12-22 01:55:11.399 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/bongo/Projects/traffic_violation_app/.git/refs/remotes/origin/main'
+2025-12-22 01:55:11.401 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-12-22 01:55:11.411 [info] > git status -z -uall [6ms]
+2025-12-22 01:55:11.419 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-22 01:55:11.774 [info] > git check-ignore -v -z --stdin [159ms]
+2025-12-22 01:55:11.862 [info] > git config --get commit.template [5ms]
+2025-12-22 01:55:11.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-22 01:55:11.883 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/bongo/Projects/traffic_violation_app/.git/refs/remotes/origin/main'
+2025-12-22 01:55:11.888 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-12-22 01:55:11.898 [info] > git status -z -uall [6ms]
+2025-12-22 01:55:11.900 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-12-22 01:55:15.720 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [11ms]
+2025-12-22 01:55:16.528 [info] > git merge-base main origin/main [1ms]
+2025-12-22 01:55:20.362 [info] > git show --textconv HEAD:pubspec.lock [8ms]
+2025-12-22 01:55:20.363 [info] > git ls-tree -l HEAD -- pubspec.lock [2ms]
+2025-12-22 01:55:20.441 [info] > git blame --root --incremental fa61e6a351238217443b7e02dba06ea9e4ad33d4 -- pubspec.lock [3ms]

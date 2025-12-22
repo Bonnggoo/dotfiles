@@ -1,0 +1,28 @@
+2025-12-22 01:48:04.162 [info] Extension host with pid 13025 started
+2025-12-22 01:48:04.162 [info] Skipping acquiring lock for /home/bongo/.config/Code/User/workspaceStorage/38ec0e4e455ab667624cbd4ef25edef6.
+2025-12-22 01:48:04.181 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-22 01:48:04.196 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-22 01:48:04.205 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-12-22 01:48:04.768 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-12-22 01:48:04.780 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-12-22 01:48:04.837 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-12-22 01:48:05.172 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-22 01:48:05.173 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: true, activationEvent: 'workspaceContains:analysis_options.yaml'
+2025-12-22 01:48:05.309 [info] Eager extensions activated
+2025-12-22 01:48:05.379 [info] ExtensionService#_doActivateExtension Dart-Code.flutter, startup: false, activationEvent: 'api', root cause: Dart-Code.dart-code
+2025-12-22 01:48:05.380 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-22 01:48:05.381 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-22 01:48:05.393 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at VXt.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:517:9889)
+2025-12-22 01:48:06.473 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+2025-12-22 01:48:06.474 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async nC._fetchModels (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5765:4429)
+	at async nC.getAllChatModels (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5765:2353)
+	at async pM.getAllChatEndpoints (/home/bongo/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5765:13748)
