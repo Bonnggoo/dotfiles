@@ -12,3 +12,4 @@
 2025-12-22 11:13:45.767 [info] [getSessions] [all] returned 0 session(s)
 2025-12-22 11:13:45.916 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
 2025-12-22 11:13:45.916 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-12-22 11:32:15.802 [info] Microsoft Authentication is deactivating...

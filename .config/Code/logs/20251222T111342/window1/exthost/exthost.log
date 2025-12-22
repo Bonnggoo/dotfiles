@@ -15,3 +15,6 @@
 2025-12-22 11:13:45.012 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2025-12-22 11:13:46.154 [error] Error: chatParticipant must be declared in package.json: claude-code
     at VXt.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:517:9889)
+2025-12-22 11:32:15.780 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-22 11:32:15.802 [warning] Canceled
+2025-12-22 11:32:16.011 [info] Extension host with pid 19737 exiting with code 0

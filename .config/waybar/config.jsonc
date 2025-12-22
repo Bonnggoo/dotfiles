@@ -53,7 +53,8 @@
     "format": "  {}", 
     "on-click": "swaync-client -t",
     "on-click-right": "swaync-client -d",
-    "max-length": 50
+    "max-length": 50,
+    "escape": true
   },
 
   "clock": {

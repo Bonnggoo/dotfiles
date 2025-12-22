@@ -49,7 +49,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 233,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -57,38 +57,17 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/bongo/.config/Code/Backups/1766391246516",
+            "folder": "file:///home/bongo/Projects/traffic_violation_app",
+            "backupPath": "/home/bongo/.config/Code/Backups/6f01febd50fe24287cf93267d7ca3257",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 800,
-                "height": 478
+                "width": 1600,
+                "height": 1000
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///home/bongo/Projects/traffic_violation_app",
-                "backupPath": "/home/bongo/.config/Code/Backups/6f01febd50fe24287cf93267d7ca3257",
-                "uiState": {
-                    "mode": 0,
-                    "x": 0,
-                    "y": 0,
-                    "width": 1600,
-                    "height": 1000
-                }
-            },
-            {
-                "backupPath": "/home/bongo/.config/Code/Backups/1766391246516",
-                "uiState": {
-                    "mode": 0,
-                    "x": 0,
-                    "y": 0,
-                    "width": 800,
-                    "height": 478
-                }
-            }
-        ]
+        "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
