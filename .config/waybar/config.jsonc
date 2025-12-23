@@ -16,8 +16,8 @@
     "custom/music",
     "bluetooth",
     "network",
-    "pulseaudio", 
-    "backlight",
+    "group/audio", 
+    "group/backlight",
     "battery",
     "custom/lock"
   ],
@@ -41,7 +41,7 @@
     "format-icons":{
         "on":"󰂯",
         "off": "󰂲",
-        "connected": "󰂱",
+        "connected": "󰂱"
         },
     "on-click": "blueman-manager",
     "tooltip-format-connected":"{device_enumerate}"
@@ -59,7 +59,7 @@
 
   "clock": {
     "tooltip": false,
-    "format": "  {:%I:%M %p  -  %A, %d %b}",
+    "format": "  {:%I:%M %p  -  %A, %d %b}"
   },
 
   "network": {
@@ -100,6 +100,18 @@
     "on-click": "pavucontrol"
   },
 
+  "pulseaudio/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal"
+},
+
+  "backlight/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal"
+},
+
   "battery": {
         "interval":2,
         "states": {
@@ -123,4 +135,29 @@
         "on-click": "wlogout --protocol layer-shell"
   },
 
-}
+  "group/audio": {
+	"orientation": "horizontal",
+	"drawer": {
+        	"transition-duration": 500,
+        	"children-class": "not-power",
+        	"transition-left-to-right": true
+    	},
+    	"modules": [
+        	"pulseaudio",
+        	"pulseaudio/slider"
+    	]
+   },
+
+   "group/backlight": {
+	"orientation": "horizontal",
+    	"drawer": {
+        	"transition-duration": 500,
+        	"children-class": "not-power",
+        	"transition-left-to-right": true
+    	},
+    	"modules": [
+        	"backlight",
+        	"backlight/slider"
+    	]
+  }
+},

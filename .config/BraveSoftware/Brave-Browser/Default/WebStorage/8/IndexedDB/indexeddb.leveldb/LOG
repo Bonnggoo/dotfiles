@@ -1,18 +1,15 @@
-2025/12/22-11:53:06.288 8199 Reusing MANIFEST /home/bongo/.config/BraveSoftware/Brave-Browser/Default/WebStorage/8/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2025/12/22-11:53:06.288 8199 Recovering log #3
-2025/12/22-11:53:06.288 8199 Reusing old log /home/bongo/.config/BraveSoftware/Brave-Browser/Default/WebStorage/8/IndexedDB/indexeddb.leveldb/000003.log 
-2025/12/22-11:58:21.833 8199 Level-0 table #5: started
-2025/12/22-11:58:21.838 8199 Level-0 table #5: 57110 bytes OK
-2025/12/22-11:58:21.846 8199 Delete type=0 #3
-2025/12/22-11:58:21.846 8199 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/22-11:58:22.826 81b1 Level-0 table #7: started
-2025/12/22-11:58:22.831 81b1 Level-0 table #7: 9585 bytes OK
-2025/12/22-11:58:22.839 81b1 Delete type=0 #4
-2025/12/22-11:58:22.839 8199 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/22-11:58:22.839 8199 Manual compaction at level-1 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00@\xc52T\xb4yB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 662 : 1
-2025/12/22-11:58:22.839 8199 Compacting 1@1 + 1@2 files
-2025/12/22-11:58:22.844 8199 Generated table #8@1: 82 keys, 14465 bytes
-2025/12/22-11:58:22.844 8199 Compacted 1@1 + 1@2 files => 14465 bytes
-2025/12/22-11:58:22.852 8199 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/12/22-11:58:22.852 8199 Delete type=2 #7
-2025/12/22-11:58:22.852 8199 Manual compaction at level-1 from '\x00\x04\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00@\xc52T\xb4yB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 662 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/23-15:52:18.252 14a9 Reusing MANIFEST /home/bongo/.config/BraveSoftware/Brave-Browser/Default/WebStorage/8/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/12/23-15:52:18.252 14a9 Recovering log #6
+2025/12/23-15:52:18.253 14a9 Reusing old log /home/bongo/.config/BraveSoftware/Brave-Browser/Default/WebStorage/8/IndexedDB/indexeddb.leveldb/000006.log 
+2025/12/23-15:52:18.253 14a9 Delete type=2 #5
+2025/12/23-15:55:24.279 14a9 Level-0 table #11: started
+2025/12/23-15:55:24.286 14a9 Level-0 table #11: 142022 bytes OK
+2025/12/23-15:55:24.294 14a9 Delete type=0 #6
+2025/12/23-15:55:24.295 14a9 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/23-15:55:24.295 14a9 Manual compaction at level-1 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0\xf2G\xb4\xb4yB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1399 : 1
+2025/12/23-15:55:24.295 14a9 Compacting 1@1 + 1@2 files
+2025/12/23-15:55:24.300 14a9 Generated table #12@1: 70 keys, 11207 bytes
+2025/12/23-15:55:24.300 14a9 Compacted 1@1 + 1@2 files => 11207 bytes
+2025/12/23-15:55:24.308 14a9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/23-15:55:24.309 14a9 Delete type=2 #11
+2025/12/23-15:55:24.309 14a9 Manual compaction at level-1 from '\x00\x06\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0\xf2G\xb4\xb4yB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1399 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
