@@ -16,8 +16,8 @@
     "custom/music",
     "bluetooth",
     "network",
-    "group/audio", 
-    "group/backlight",
+    "pulseaudio", 
+    "backlight",
     "battery",
     "custom/lock"
   ],
@@ -100,18 +100,6 @@
     "on-click": "pavucontrol"
   },
 
-  "pulseaudio/slider": {
-    "min": 0,
-    "max": 100,
-    "orientation": "horizontal"
-},
-
-  "backlight/slider": {
-    "min": 0,
-    "max": 100,
-    "orientation": "horizontal"
-},
-
   "battery": {
         "interval":2,
         "states": {
@@ -133,31 +121,6 @@
         "format": "⏻",
         "tooltip": false,
         "on-click": "wlogout --protocol layer-shell"
-  },
-
-  "group/audio": {
-	"orientation": "horizontal",
-	"drawer": {
-        	"transition-duration": 500,
-        	"children-class": "not-power",
-        	"transition-left-to-right": true
-    	},
-    	"modules": [
-        	"pulseaudio",
-        	"pulseaudio/slider"
-    	]
-   },
-
-   "group/backlight": {
-	"orientation": "horizontal",
-    	"drawer": {
-        	"transition-duration": 500,
-        	"children-class": "not-power",
-        	"transition-left-to-right": true
-    	},
-    	"modules": [
-        	"backlight",
-        	"backlight/slider"
-    	]
   }
-},
+
+}

@@ -25,10 +25,8 @@
 #clock,
 #custom-music,
 #bluetooth,
-/*#pulseaudio,*/
-/*backlight,*/
-#group-audio,
-#group-backlight,
+#pulseaudio,
+#backlight,
 #network,
 #battery {
   background-color: @surface_container;
@@ -56,13 +54,11 @@
 #memory:hover,
 #clock:hover,
 #bluetooth:hover,
-/*#pulseaudio:hover,*/
-/*#backlight:hover,*/
+#pulseaudio:hover,
+#backlight:hover,
 #network:hover,
 #custom-lock:hover,
 #custom-music:hover,
-#group-audio:hover,
-#group-backlight:hover
 #battery:hover {
   background-color: @surface_container_high;
 }
@@ -90,29 +86,14 @@
   color: @on_surface;
 }
 
-/* --- Right Modules Grouping --- */
-#bluetooth,
-/*#pulseaudio,*/
-/*#backlight,*/
-#network,
-#custom-music,
-#group-audio,
-#group-backlight,
-#battery {
-   border-radius: 0;
-}
 
 #bluetooth {
   margin-left: 0px; 
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
   color: @on_surface_variant;
   font-size: 16px;
 }
 
 #battery {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
   margin-right: 7px;
   color: #a6d189;
 }
@@ -132,10 +113,8 @@
 /* --- Module Text Colors --- */
 #cpu,
 #memory,
-/*#pulseaudio,*/
-/*#backlight,*/
-#group-audio,
-#group-backlight,
+#pulseaudio,
+#backlight,
 #network {
   color: @on_surface;
 }
@@ -199,40 +178,4 @@ tooltip {
   padding: 8px;
   border-radius: 6px;
   border: 1px solid @outline;
-}
-
-/* Remove background from the main group so it blends in */
-#group-audio, #group-backlight {
-    background-color: transparent;
-    margin-right: 7px;
-    margin-left: 7px;
-    padding: 4px;
-}
-
-/* Style the drawer background (optional, creates a container look) */
-#group-audio.drawer, #group-backlight.drawer {
-    background-color: #1e1e2e; /* Your bar background color */
-    border-radius: 15px;
-    margin-right: 7px;
-    padding-right: 10px;
-}
-
-/* Hide the slider background so it looks clean */
-#pulseaudio-slider, #backlight-slider {
-    background-color: transparent;
-    box-shadow: none;
-    margin-left: 5px;
-    margin-right: 15px;
-}
-
-/* Re-use the slider CSS from the previous step for the handles */
-#pulseaudio-slider trough, #backlight-slider trough {
-    min-height: 5px;
-    min-width: 80px;
-    border-radius: 5px;
-    background-color: #3e3e3e;
-}
-#pulseaudio-slider highlight, #backlight-slider highlight {
-    border-radius: 5px;
-    background-color: #89b4fa;
 }
