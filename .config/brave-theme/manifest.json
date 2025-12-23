@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Matugen Brave Theme",
+  "theme": {
+    "colors": {
+      "frame": [
+        18, 
+        19, 
+        24
+      ],
+      "toolbar": [
+        30, 
+        31, 
+        37
+      ],
+      "ntp_background": [
+        18, 
+        19, 
+        24
+      ],
+      "ntp_text": [
+        226, 
+        226, 
+        233
+      ],
+      "tab_text": [
+        226, 
+        226, 
+        233
+      ],
+      "tab_background_text": [
+        197, 
+        198, 
+        208
+      ],
+      "bookmark_text": [
+        226, 
+        226, 
+        233
+      ]
+    }
+  }
+}

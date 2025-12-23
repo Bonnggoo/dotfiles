@@ -9,14 +9,7 @@
                 "folderUri": "file:///home/bongo/Projects/traffic_violation_app"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1766391246516"
-            },
-            {
-                "backupFolder": "1766391246595"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -63,8 +56,8 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1600,
-                "height": 1000
+                "width": 800,
+                "height": 956
             }
         },
         "openedWindows": []

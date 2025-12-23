@@ -1,0 +1,4 @@
+2025-12-23 17:23:04.394 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-23 17:23:04.394 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-23 17:23:04.394 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-23 17:23:04.394 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.

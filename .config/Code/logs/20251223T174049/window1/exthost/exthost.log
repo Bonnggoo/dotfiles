@@ -1,0 +1,20 @@
+2025-12-23 17:40:51.176 [info] Extension host with pid 37366 started
+2025-12-23 17:40:51.176 [info] Skipping acquiring lock for /home/bongo/.config/Code/User/workspaceStorage/38ec0e4e455ab667624cbd4ef25edef6.
+2025-12-23 17:40:51.221 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-23 17:40:51.239 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2025-12-23 17:40:51.816 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'onLanguage:dart'
+2025-12-23 17:40:51.861 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-23 17:40:51.929 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-12-23 17:40:51.955 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-12-23 17:40:51.970 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-12-23 17:40:52.094 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-12-23 17:40:52.300 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-23 17:40:52.358 [info] ExtensionService#_doActivateExtension Dart-Code.flutter, startup: false, activationEvent: 'api', root cause: Dart-Code.dart-code
+2025-12-23 17:40:52.442 [info] Eager extensions activated
+2025-12-23 17:40:52.455 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-23 17:40:52.456 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-23 17:40:52.691 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at VXt.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:517:9889)
+2025-12-23 17:41:45.639 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-23 17:41:45.668 [warning] Canceled
+2025-12-23 17:41:45.879 [info] Extension host with pid 37366 exiting with code 0

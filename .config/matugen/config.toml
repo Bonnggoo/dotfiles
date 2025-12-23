@@ -25,4 +25,16 @@ output_path = '/home/bongo/.config/rofi/colors.rasi'
 [templates.swaync]
 input_path = "~/.config/matugen/templates/swaync.css"
 output_path = "~/.config/swaync/colors.css"
-post_hook = "swaync-client -rs" 
+post_hook = "swaync-client -rs"
+
+[templates.gtk3]
+input_path = "~/.config/matugen/templates/gtk3.css"
+output_path = "~/.config/gtk-3.0/matugen.css"
+
+[templates.gtk4]
+input_path = "~/.config/matugen/templates/gtk3.css"
+output_path = "~/.config/gtk-4.0/matugen.css"
+
+[templates.brave]
+input_path = "~/.config/matugen/templates/brave-manifest.json"
+output_path = "~/.config/brave-theme/manifest.json"

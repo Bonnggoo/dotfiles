@@ -1,0 +1,57 @@
+2025-12-23 17:42:23.813 [info] [main] Log level: Info
+2025-12-23 17:42:23.813 [info] [main] Validating found git in: "git"
+2025-12-23 17:42:23.813 [info] [main] Using git "2.52.0" from "git"
+2025-12-23 17:42:23.813 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-23 17:42:23.813 [info] > git rev-parse --show-toplevel [30ms]
+2025-12-23 17:42:23.814 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2025-12-23 17:42:23.819 [info] [Model][openRepository] Opened repository (path): /home/bongo/Projects/traffic_violation_app
+2025-12-23 17:42:23.819 [info] [Model][openRepository] Opened repository (real path): /home/bongo/Projects/traffic_violation_app
+2025-12-23 17:42:23.819 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-23 17:42:23.836 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-23 17:42:23.836 [info] > git config --get commit.template [10ms]
+2025-12-23 17:42:23.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [61ms]
+2025-12-23 17:42:23.919 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/bongo/Projects/traffic_violation_app/.git/refs/remotes/origin/main'
+2025-12-23 17:42:23.922 [info] > git rev-parse --show-toplevel [12ms]
+2025-12-23 17:42:23.956 [info] > git rev-parse refs/remotes/origin/main [37ms]
+2025-12-23 17:42:23.985 [info] > git status -z -uall [24ms]
+2025-12-23 17:42:23.985 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-12-23 17:42:23.995 [info] > git rev-parse --show-toplevel [41ms]
+2025-12-23 17:42:24.010 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-12-23 17:42:24.024 [info] > git config --get --local branch.main.vscode-merge-base [9ms]
+2025-12-23 17:42:24.031 [info] > git rev-parse --show-toplevel [30ms]
+2025-12-23 17:42:24.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2025-12-23 17:42:24.045 [info] > git rev-parse --show-toplevel [8ms]
+2025-12-23 17:42:24.052 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2025-12-23 17:42:24.060 [info] > git rev-parse --show-toplevel [9ms]
+2025-12-23 17:42:24.071 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% fa61e6a351238217443b7e02dba06ea9e4ad33d4...refs/remotes/origin/main -- [12ms]
+2025-12-23 17:42:24.072 [info] > git rev-parse --show-toplevel [6ms]
+2025-12-23 17:42:24.093 [info] > git rev-parse --show-toplevel [16ms]
+2025-12-23 17:42:24.134 [info] > git rev-parse --show-toplevel [20ms]
+2025-12-23 17:42:24.134 [info] > git config --get commit.template [25ms]
+2025-12-23 17:42:24.157 [info] > git rev-parse --show-toplevel [16ms]
+2025-12-23 17:42:24.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-12-23 17:42:24.168 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/bongo/Projects/traffic_violation_app/.git/refs/remotes/origin/main'
+2025-12-23 17:42:24.168 [info] > git rev-parse --show-toplevel [6ms]
+2025-12-23 17:42:24.170 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-23 17:42:24.171 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-12-23 17:42:24.181 [info] > git status -z -uall [6ms]
+2025-12-23 17:42:24.182 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-23 17:42:24.543 [info] > git check-ignore -v -z --stdin [169ms]
+2025-12-23 17:42:24.585 [info] > git show --textconv :lib/screens/map_tab.dart [9ms]
+2025-12-23 17:42:24.587 [info] > git ls-files --stage -- lib/screens/map_tab.dart [4ms]
+2025-12-23 17:42:24.595 [info] > git cat-file -s 70bdab245634e53045570fdbc2fb0563e5af7b7a [2ms]
+2025-12-23 17:42:24.778 [info] > git config --get commit.template [1ms]
+2025-12-23 17:42:24.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-12-23 17:42:24.799 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/bongo/Projects/traffic_violation_app/.git/refs/remotes/origin/main'
+2025-12-23 17:42:24.803 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-12-23 17:42:24.815 [info] > git status -z -uall [8ms]
+2025-12-23 17:42:24.816 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-12-23 17:42:25.580 [info] > git config --get commit.template [7ms]
+2025-12-23 17:42:25.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-23 17:42:25.587 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/bongo/Projects/traffic_violation_app/.git/refs/remotes/origin/main'
+2025-12-23 17:42:25.589 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-12-23 17:42:25.601 [info] > git status -z -uall [7ms]
+2025-12-23 17:42:25.602 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-23 17:42:25.678 [info] > git ls-files --stage -- lib/screens/map_tab.dart [1ms]
+2025-12-23 17:42:25.686 [info] > git cat-file -s 70bdab245634e53045570fdbc2fb0563e5af7b7a [2ms]
+2025-12-23 17:42:25.694 [info] > git show --textconv :lib/screens/map_tab.dart [1ms]

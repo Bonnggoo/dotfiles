@@ -12,7 +12,6 @@
 /* --- Waybar Container --- */
 #waybar {
   background-color: @surface_container;
-  color: @on_surface;
   margin: 0px;
   font-weight: 500;
 }
@@ -116,16 +115,12 @@
 #pulseaudio,
 #backlight,
 #network {
-  color: @on_surface;
+  color: @primary;
 }
 
 #clock {
   color: @primary;
   font-weight: 500;
-}
-
-#network {
-  color: #c6d0f5;
 }
 
 #network.disconnected {
