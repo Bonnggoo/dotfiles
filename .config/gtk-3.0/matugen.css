@@ -1,14 +1,14 @@
-@define-color theme_fg_color #e2e2e9;
-@define-color theme_bg_color #121318;
-@define-color theme_text_color #e2e2e9;
-@define-color theme_base_color #121318;
-@define-color theme_selected_bg_color #afc6ff;
-@define-color theme_selected_fg_color #132f60;
+@define-color theme_fg_color #e4e3d7;
+@define-color theme_bg_color #13140d;
+@define-color theme_text_color #e4e3d7;
+@define-color theme_base_color #13140d;
+@define-color theme_selected_bg_color #c0ce7e;
+@define-color theme_selected_fg_color #2b3400;
 
-@define-color window_bg_color #121318;
-@define-color window_fg_color #e2e2e9;
+@define-color window_bg_color #13140d;
+@define-color window_fg_color #e4e3d7;
 
-@define-color view_bg_color #121318;
-@define-color view_fg_color #e2e2e9;
-@define-color headerbar_bg_color #121318;
-@define-color headerbar_fg_color #e2e2e9;
+@define-color view_bg_color #13140d;
+@define-color view_fg_color #e4e3d7;
+@define-color headerbar_bg_color #13140d;
+@define-color headerbar_fg_color #e4e3d7;
