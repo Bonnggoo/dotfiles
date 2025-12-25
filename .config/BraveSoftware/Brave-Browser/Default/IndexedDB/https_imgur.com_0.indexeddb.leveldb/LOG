@@ -1,0 +1,6 @@
+2025/12/25-18:06:17.973 171c Creating DB /home/bongo/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb since it was missing.
+2025/12/25-18:06:17.985 171c Reusing MANIFEST /home/bongo/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/25-18:06:18.014 1730 Level-0 table #5: started
+2025/12/25-18:06:18.022 1730 Level-0 table #5: 1634 bytes OK
+2025/12/25-18:06:18.038 1730 Delete type=0 #3
+2025/12/25-18:06:18.038 1730 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

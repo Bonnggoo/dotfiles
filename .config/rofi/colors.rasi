@@ -1,7 +1,7 @@
 * {
-    background: #13140dCC;
-    foreground: #e4e3d7;
-    primary: #c0ce7e;
-    border: #c0ce7e;
-    selected: #414c08;
+    background: #121318CC;
+    foreground: #e3e1e9;
+    primary: #b9c3ff;
+    border: #b9c3ff;
+    selected: #384379;
 }

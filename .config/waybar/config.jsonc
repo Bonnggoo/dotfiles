@@ -5,6 +5,7 @@
   "margin-bottom": 0,
   "spacing" : 0,
   "modules-left": [
+  "custom/launcher",
   "hyprland/workspaces",
   "memory",
   "cpu"
@@ -121,6 +122,12 @@
         "format": "⏻",
         "tooltip": false,
         "on-click": "wlogout --protocol layer-shell"
-  }
+  },
+
+  "custom/launcher": {
+        "format": " ",       // Fedora Icon
+        "on-click": "swaync-client -t",
+        "tooltip": false
+    }
 
 }

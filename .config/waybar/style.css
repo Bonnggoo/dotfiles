@@ -17,6 +17,7 @@
 }
 
 /* --- Modules Background --- */
+#custom-launcher,
 #workspaces,
 #memory,
 #custom-lock,
@@ -37,10 +38,11 @@
 }
 
 /* --- Left Modules Specifics --- */
-#workspaces {
-  padding: 4px;
+#custom-launcher {
+  font-weight: bold;	
+  /*padding: 4px;*/
   margin-left: 7px;
-  margin-right: 7px;
+  /*margin-right: 7px;*/
 }
 
 #memory,
@@ -58,6 +60,7 @@
 #network:hover,
 #custom-lock:hover,
 #custom-music:hover,
+#custom-launcher:hover,
 #battery:hover {
   background-color: @surface_container_high;
 }
@@ -114,7 +117,8 @@
 #memory,
 #pulseaudio,
 #backlight,
-#network {
+#network,
+#custom-launcher {
   color: @primary;
 }
 
